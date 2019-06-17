@@ -48,8 +48,8 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json}": [
-      "prettier --write",
-      "stylelint --fix --config ./.stylelintrc",
+      "pretty-quick --staged",
+      "eslint src/ --fix",
       "git add"
     ]
   }
