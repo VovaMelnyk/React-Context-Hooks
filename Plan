@@ -1,0 +1,7 @@
+1) run create-react-app
+2) install linter`s packages
+-D eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier eslint-config-prettier eslint-plugin-prettier husky lint-staged pretty-quick
+2.1) npm i -D eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+2.2) npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+2.3) npm i -D husky lint-staged pretty-quick
+3) Add scripts to package.json
